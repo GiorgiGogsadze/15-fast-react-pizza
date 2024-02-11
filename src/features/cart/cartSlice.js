@@ -25,8 +25,8 @@ const fakeCart = [
 ];
 
 const initialState = {
-  cart: fakeCart,
-  // cart: [],
+  // cart: fakeCart,
+  cart: [],
 };
 
 const cartSlice = createSlice({
